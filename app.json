@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "The Jagal",
+    "slug": "the-jagal",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.thejagalapp.com",
+      "buildNumber": "6"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.thejagalapp.com",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyB-qOmirCo6U4p9xg-iMUP1DspIqeP6aFY"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cdcbdf36-04fe-41e0-a7b3-b8d95e87d3e9"
+      }
+    },
+    "plugins": [
+
+    ]
+  }
+}
