@@ -2,6 +2,7 @@ import { Button, Text } from '@rneui/base'
 import React from 'react'
 import { Image, StyleSheet, View } from 'react-native'
 import SafeAreaView from 'react-native-safe-area-view'
+import { Octicons } from '@expo/vector-icons';
 import {
     useFonts,
     Poppins_500Medium,
@@ -20,7 +21,22 @@ const Splash12 = ({navigation}) => {
                         resizeMode="cover" 
                         source={require("../assets/splash12.png")}
                     />
-                    <Text style={{color: "#263238", fontFamily: 'Poppins_500Medium', fontSize: 28, textAlign: "center", marginTop: 40}}>Suitable barbers will accept the job</Text>
+                    <Text style={{color: "#263238", fontFamily: 'Poppins_500Medium', fontSize: 28, textAlign: "center", marginVertical: 40}}>Suitable barbers will accept the job</Text>
+                    <View style={{flexDirection: "row", justifyContent: "center"}}>
+                        <Octicons name="dash" size={24} color="black" style={[styles.dash]} />
+                        <Octicons name="dash" size={24} color="black" style={[styles.dash]} />
+                        <Octicons name="dash" size={24} color="black" style={[styles.dash]} />
+                        <Octicons name="dash" size={24} color="black" style={[styles.dash]} />
+                        <Octicons name="dash" size={24} color="black" style={[styles.dash]} />
+                        <Octicons name="dash" size={24} color="black" style={[styles.dash]} />
+                        <Octicons name="dash" size={24} color="black" style={[styles.dash]} />
+                        <Octicons name="dash" size={24} color="black" style={[styles.dash]} />
+                        <Octicons name="dash" size={24} color="black" style={[styles.dash]} />
+                        <Octicons name="dash" size={24} color="black" style={[styles.dash]} />
+                        <Octicons name="dash" size={24} color="black" style={[styles.dash]} />
+                        <Octicons name="dash" size={24} color="black" style={[styles.dash, styles.dashActive]} />
+                        <Octicons name="dash" size={24} color="black" style={[styles.dash]} />
+                    </View>
                 </View>
                 <View style={styles.bottom}>
                     <Button 
@@ -56,6 +72,13 @@ const styles = StyleSheet.create({
         flexDirection: "row",
         justifyContent: "space-between",
         alignItems: "center",
+    },
+    dash: {
+        marginHorizontal: 1,
+        color: "#DDDDDD"
+    },
+    dashActive: {
+        color: "black"
     }
 })
 

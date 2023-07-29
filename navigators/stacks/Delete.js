@@ -4,7 +4,7 @@ import {
     useFonts,
     Poppins_500Medium,
 } from '@expo-google-fonts/poppins';
-import Step1 from '../../screens/Delete/Step1';
+import Step1 from '../../screens/Delete/DeleteStep1';
 
 export default function DeleteStack () {
     let [fontsLoaded] = useFonts({

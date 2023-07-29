@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import ProfileScreen from '../../../screens/customer/ProfileScreen';
-import Step1 from '../../../screens/Delete/Step1';
+import Step1 from '../../../screens/Delete/DeleteStep1';
 
 export default function CustomerProfileStack() {
     const Stack = createNativeStackNavigator();

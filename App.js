@@ -26,7 +26,7 @@ export default function App() {
   })
 
   React.useEffect(() => {
-    // AsyncStorage.removeItem("isTouch")
+    AsyncStorage.removeItem("isTouch")
     if(state.token) {
       AsyncStorage.setItem("user", JSON.stringify(state.user))
       AsyncStorage.setItem("token", state.token)

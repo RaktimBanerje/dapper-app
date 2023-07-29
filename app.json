@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "The Jagal",
-    "slug": "the-jagal",
+    "name": "Dapper",
+    "slug": "dapper",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,15 +19,15 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.thejagalapp.com",
-      "buildNumber": "6"
+      "bundleIdentifier": "com.thedapper.app",
+      "buildNumber": "1"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.thejagalapp.com",
+      "package": "com.thedapper.app",
       "config": {
         "googleMaps": {
           "apiKey": "AIzaSyB-qOmirCo6U4p9xg-iMUP1DspIqeP6aFY"
@@ -37,13 +37,11 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
+    "plugins": [],
     "extra": {
       "eas": {
-        "projectId": "cdcbdf36-04fe-41e0-a7b3-b8d95e87d3e9"
+        "projectId": "6a5fd48b-28e3-49a4-a59f-c308e5c75d25"
       }
-    },
-    "plugins": [
-
-    ]
+    }
   }
 }

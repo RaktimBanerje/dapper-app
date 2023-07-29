@@ -30,10 +30,11 @@ export default function App() {
     
     return (
         <NavigationContainer>
-            <Stack.Navigator screenOptions={{
-                headerShown: false,
-                
-            }}>
+            <Stack.Navigator 
+                screenOptions={{headerShown: false}} 
+                animationEnabled={true}
+                gestureEnabled={true}
+            >
                 <Stack.Screen name="Splash" component={Splash} />
                 <Stack.Screen name="Splash1" component={Splash1} />
                 <Stack.Screen name="Splash2" component={Splash2} />
